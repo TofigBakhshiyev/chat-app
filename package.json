@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "author": "",
+  "author": "tofiqbakhshiyev@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bad-words": "^3.0.0",
