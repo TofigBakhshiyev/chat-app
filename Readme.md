@@ -5,7 +5,7 @@ Realtime messaging app <br />
 <br/>
 To see the output on a web based interface, open the link  [http://localhost:3000](http://localhost:3000/)
 
-### Create docker image (Optionial)
+#### Create docker image (Optionial)
 ##### Installing Docker
 - [MacOS](https://docs.docker.com/docker-for-mac/install/)
 - [Windows](https://docs.docker.com/docker-for-windows/install/)
