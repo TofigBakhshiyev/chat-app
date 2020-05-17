@@ -13,8 +13,6 @@ To see the output on a web based interface, open the link  [http://localhost:300
 ##### Built docker image
 - ```docker build -t  chat-app -f Dockerfile .```
 - ```docker run -i -p 3000:3000 chat-app```
-
 <br/>
 To see the output on a web based interface, open the link  [http://localhost:3000](http://localhost:3000/)
-
  
