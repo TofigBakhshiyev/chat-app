@@ -1,6 +1,10 @@
 pipeline {
     agent any
-
+    
+    tools {
+        gradle 'Gradle-6.2'
+    }
+    
     stages {
         stage('installations') {
             steps {
@@ -13,9 +17,7 @@ pipeline {
         stage('run app') {
             steps {
                 echo 'App test..'
-                withGradle() {
-                    sh './gradlew -v'
-                }
+                sh './gradlew -v'
             }
         } 
     }
