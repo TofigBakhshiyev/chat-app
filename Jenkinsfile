@@ -5,8 +5,8 @@ pipeline {
         stage('installations') {
             steps {
                 echo 'Building..'
-                nodejs('Node-15.2.0') {
-                    sh 'yarn install'
+                nodejs('Node-14.0.0') {
+                    sh 'npm install'
                 }
             }
         }
