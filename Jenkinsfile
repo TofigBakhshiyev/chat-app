@@ -13,8 +13,8 @@ pipeline {
         stage('run app') {
             steps {
                 echo 'App test..'
-                nodejs('Node-14.0.0') {
-                    sh 'yarn start'
+                withGradle() {
+                    sh './gradlew -v'
                 }
             }
         } 
