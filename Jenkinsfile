@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 nodejs('Node-14.0.0') {
-                    sh 'npm install'
+                    sh 'yarn install'
                 }
             }
         }
